@@ -9,29 +9,17 @@ export default function Hero() {
         <div className="relative z-[2] min-w-[300px]">
           <h1 className="m-[0_0_10px_0] text-[64px] font-bold leading-[56px] text-white">Carocol</h1>
           <p className="text-white mb-[10px] text-[26px] font-headline">
-            Desenvolvedor Frontend <span className="text-white pb-1 tracking-[1px] border-b-[3px] border-solid border-[#149ddd]"
+            Desenvolvedor de <span className="text-white pb-1 tracking-[1px] border-b-[3px] border-solid border-[#149ddd]"
                         >
                           <TypeIt options={{
-                              strings: ["VueJS", "ReactJS", "NextJs", "nunjucks", "bootfaces", "primefaces Vue"], 
+                              strings: ["gosma", "comida de planta"], 
                               breakLines: false, 
                               loop: true, 
                               speed:75
                             }}>
                           </TypeIt>
                         </span>
-          </p>
-          <p className="text-white mb-[50px] text-[26px] font-headline">
-            Desenvolvedor Backend <span className="text-white pb-1 tracking-[1px] border-b-[3px] border-solid border-[#149ddd]"
-                        >
-                          <TypeIt options={{
-                              strings: ["Node.js", "Java", "TypeScript", "Prisma", "Sequelize", "PostgreSQL", "outros mais"], 
-                              breakLines: false, 
-                              loop: true, 
-                              speed:75
-                            }}>
-                          </TypeIt>
-                        </span>
-          </p>
+          </p>          
         </div>       
 
       </section>      
