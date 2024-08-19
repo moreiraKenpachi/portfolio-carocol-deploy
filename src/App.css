@@ -39,6 +39,12 @@
     }
     /*SOCIAL LINK - end*/ 
 
+    /*IMAGEM-HERO - start*/    
+    .imagem-hero {
+        background-image: url('./assets/profile-carocol.jpg');
+    }
+    /*IMAGEM-HERO - end*/
+
     /* *********************** */
     /* NAVIGATION MENU - start*/      
     .scrollto.navbar,

@@ -3,7 +3,7 @@ import TypeIt from "typeit-react";
 export default function Hero() {
     return (
       <section id="hero" className="flex flex-col justify-center items-center w-[88%] h-[100vh] ml-48
-                            before:content-[''] before:bg-[#050d184d] 
+                           imagem-hero bg-cover before:content-[''] before:bg-[#050d184d] 
                            before:absolute before:bottom-0 before:top-0 before:left-0 before:right-2 before:z-[1]">
         
         <div className="relative z-[2] min-w-[300px]">

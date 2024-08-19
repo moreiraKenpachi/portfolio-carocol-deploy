@@ -2,6 +2,8 @@ import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiOutlineUser } from "react-icons/hi";
 import { IoStorefrontOutline } from "react-icons/io5";
 
+import Carocol from "../../assets/profile-carocol.jpg";
+
 import { useEffect } from "react";
 
 export default function Header() {
@@ -40,6 +42,7 @@ export default function Header() {
                             z-[9997] p-[0_15px] bg-[#040b14] transition-all duration-500 overflow-y-auto">
             <div className=" flex flex-col">
                 <div>
+                    <img className=" m-[15px_auto] block w-[120px] border-8 rounded-full border-[#2c2f3f]" src={Carocol} alt="image" />
                     <h1 className=" text-[24px] font-semibold m-0 p-0 font-headline text-center">
                         <a className=" text-white no-underline hover:text-white" href="index.html">Carocol</a>
                     </h1>
