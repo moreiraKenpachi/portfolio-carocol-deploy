@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    a {
+        @apply text-blue-700;
+        @apply no-underline;
+    }
+
+    a:hover {
+        @apply text-blue-400;
+        @apply no-underline;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-handwriting;
+    }
+
+    section {
+        @apply p-[60px_0] overflow-hidden;
+    }
+}
+
+@layer components {
+    body {
+        @apply font-sans;
+        @apply  text-[#272829];
+    }
+
+    /*SOCIAL LINK - start*/    
+    .icon-link {
+        @apply text-[18px] inline-block bg-[#212431] text-[#fff] leading-[1] p-[9px_8.5px] mr-1 rounded-[50%] text-center w-9 h-9 duration-300;
+    }
+    /*SOCIAL LINK - end*/ 
+
+    /* *********************** */
+    /* NAVIGATION MENU - start*/      
+    .scrollto.navbar,
+    nav a:hover {
+        @apply text-white;
+    }   
+
+    .icon-home {
+        @apply text-[#6f7180];
+    }
+    
+    .navbar-icon,
+    nav a:hover .icon-home {
+        @apply text-[#149ddd];
+    }   
+    
+}
+
+
