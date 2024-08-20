@@ -8,7 +8,7 @@ export default function Footer() {
               &copy; Copyright <strong><span>Portfólio</span></strong>
           </div>
           <div className="text-center text-[13px] pt-[5px] text-[#eaebf0]">
-              Designed by <a href="">Fabricio</a>
+              Designed by <a href="">Carocol</a>
           </div>
           </div>
         </footer>      
